@@ -40,3 +40,10 @@ $(document).ready(function () {
     $("body").toggleClass("lock");
   });
 });
+$(document).ready(function () {
+  $(".slider-about").slick({
+    slidesToShow: 1,
+    dots: true,
+    arrows: true,
+  });
+});
